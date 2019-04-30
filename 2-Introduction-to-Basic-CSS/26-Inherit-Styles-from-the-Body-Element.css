@@ -1,0 +1,14 @@
+/* Adding styles to higher up tags can effect other tags nested within them. */
+
+<style>
+  body {
+    color: green;
+    font-family: monospace;
+  }
+
+  h1 {
+
+  }
+</style>
+
+<h1>Hello World</h1>
