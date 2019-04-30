@@ -1,0 +1,14 @@
+/* The class selector takes priority over a tag selector, so the styles within the class will change accordingly. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
