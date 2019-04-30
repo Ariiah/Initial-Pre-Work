@@ -1,0 +1,7 @@
+/* While there are class, id, and attribute selectors, whole tags can be affected as well. */
+
+<style>
+body {
+  background-color: black;
+}
+</style>
