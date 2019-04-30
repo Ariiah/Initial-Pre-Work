@@ -1,0 +1,7 @@
+/* RGB is another way to declare colors through the use of numbers to determine brightness levels of red, green, and blue. */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
