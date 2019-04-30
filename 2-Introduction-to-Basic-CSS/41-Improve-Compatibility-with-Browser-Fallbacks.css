@@ -1,0 +1,14 @@
+/* To avoid browser incompatibility, using values, separately from the the css variable, the browser recognizes will prevent inconsistency. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
