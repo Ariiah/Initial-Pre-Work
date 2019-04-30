@@ -1,0 +1,27 @@
+/* Display flex makes it easier to position items on your site. By using a container div and then nesting other "box" divs within it, they snap into place. */
+
+<style>
+  #box-container {
+    height: 500px;
+    display: flex;
+
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+
+  }
+</style>
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
