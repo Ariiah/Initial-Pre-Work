@@ -1,0 +1,12 @@
+//Do while loops are safer to use than a regular while loop because there is less of a change of infinite loops.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do {
+  myArray.push(i);
+  i++;
+} while (i < 11)
